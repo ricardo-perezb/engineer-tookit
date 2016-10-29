@@ -9,7 +9,7 @@ Bower(app)
 def showRoot():
   return render_template('index.html')
 
-@app.route('/calculator/rpn')
-def rpnCalculator():
-  return 'RPN calculator - under construction'
+@app.route('/calculators/<ctype>')
+def showCalculator(ctype):
+  return render_template('calculator_' + ctype + '.html')
 
