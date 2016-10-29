@@ -1,0 +1,12 @@
+{
+  "name": "engineer-toolkit",
+  "homepage": "https://github.com/ricardo-perezb/engineer-tookit",
+  "authors": [
+    "apastors <a.pastor.sanchez@gmail.com>",
+    "ricardo <ricardo.tudela@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true
+}
