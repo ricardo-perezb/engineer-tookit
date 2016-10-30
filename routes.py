@@ -1,6 +1,6 @@
 from flask import Flask, url_for
 from flask import render_template
-from flask.ext.bower import Bower
+from flask_bower import Bower
 
 app = Flask(__name__, static_url_path='')
 Bower(app)
